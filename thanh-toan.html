@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html class="no-js" lang="vi">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta charset="UTF-8" />
+    <title>LH GAMING</title>
+    <meta content="LH GAMING" name="description" />
+    <meta content="" name="keywords" />
+    <link rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <script src="script/jquery-2.1.4.min.js"></script>
+    <script src="script/jquery-migrate-1.2.1.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/jquery-ui.min.js"></script>
+
+    <script src="script/fix-height.js"></script>
+    <script src="script/common.js"></script>
+    <script src="script/jquery.cookie.js"></script>
+    <script src="script/mycard.js"></script>
+    <script src="script/jquery.lazyload.min.js"></script>
+    <script src="script/angular.min.js"></script>
+    <script src="script/angular-loading-spinner.js"></script>
+    <script src="script/spin.min.js"></script>
+    <script src="script/angular-spinner.min.js"></script>
+    <script src="script/angular-sanitize.min.js"></script>
+    <script src="script/appMain.js"></script>
+    <script src="script/directive.js"></script>
+    <script src="script/angular-summernote.js"></script>
+    <script src="script/paging.js"></script>
+    <script src="script/ajaxServices.js"></script>
+    <script src="script/alertsServices.js"></script>
+    <script src="icon/js/all.js"></script>
+
+
+</head>
+<body ng-app="appMain" style="">
+<div id="fb-root"></div>
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "sdk.js#xfbml=1&version=v2.6&appId=227481454296289";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<div class="wrapper page-home">
+
+    <div class="header">
+
+        <script src="login.js"  type="text/javascript"></script>
+        <section class="top-link clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="nav navbar-nav topmenu-contact pull-left">
+                            <li><i class="fa fa-phone"></i> <span>Hotline:1900 1009</span></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right topmenu  hidden-xs hidden-sm">
+                            <li class="order-check"><a href="kiem-tra-don-hang.html"><i class="fas fa-pen-square"></i> Kiểm tra đơn hàng</a></li>
+                            <li class="order-cart"><a href="gio-hang.html" ><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+                            <li class="account-login"><a href="dang-nhap.html"><i class="fas fa-sign-in-alt"></i> Đăng nhập </a></li>
+                            <li class="account-register"><a href="dang-ky.html"><i class="fa fa-key"></i> Đăng ký </a></li>
+                        </ul>
+                        <div class="show-mobile hidden-lg hidden-md">
+                            <div class="quick-user">
+                                <div class="quickaccess-toggle">
+                                    <i class="fa fa-user"></i>
+                                </div>
+                                <div class="inner-toggle">
+                                    <ul class="login links">
+                                        <li>
+                                            <a href="dang-ky.html"><i class="fa fa-sign-in"></i> Đăng ký</a>
+                                        </li>
+                                        <li>
+                                            <a href="dang-nhap.html"><i class="fa fa-key"></i> Đăng nhập</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="quick-access">
+                                <div class="quickaccess-toggle">
+                                    <i class="fa fa-list"></i>
+                                </div>
+                                <div class="inner-toggle">
+                                    <ul class="links">
+                                        <li><a id="mobile-wishlist-total" href="kiem-tra-don-hang.html" class="wishlist"><i class="fa fa-pencil-square-o"></i> Kiểm tra đơn hàng</a></li>
+                                        <li><a href="gio-hang.html"  class="shoppingcart"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="header-content clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-12 col-sm-12 header-left text-center">
+                        <div class="logo">
+                            <a href="index.html"  title="">
+                                <img alt="CÔNG TY PHÂN PHỐI LH GAMING" src="banner(1).png" class="img-responsive" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-xs-12 col-sm-12 header-right">
+                        <div class="sale-policy clearfix hidden-sm hidden-xs">
+                            <ul class="clearfix">
+                                <li class="shipping">
+                                    <i class="fa fa-truck"></i><span>
+                                        Giao hàng miễn phí
+                                    </span>
+                                </li>
+                                <li class="payment">
+                                    <i class="fas fa-money-bill"></i><span>
+                                        Thanh toán linh hoạt
+                                    </span>
+                                </li>
+                                <li class="return">
+                                    <i class="fas fa-redo"></i><span>
+                                        Trả hàng trong 30 ngày
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 col-sm-7 col-xs-12 top-search">
+                                <div class="search-mobile hidden-md hidden-lg">
+                                    <div class="input-cat form-search clearfix">
+                                        <div class="form-search-controls  input-group">
+                                            <input type="text" name="search" id="txtsearch1" onblur="if(this.value=='')this.value='Tìm kiếm...'" onfocus="if(this.value=='Tìm kiếm...')this.value=''" value="T&#236;m kiếm..." />
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-search" title="Search" type="button" id="btnsearch1" value="Search">
+                                                    <i class="fa fa-search"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="search hidden-sm hidden-xs">
+                                    <div class="input-cat form-search clearfix">
+                                        <div class="form-search-controls">
+                                            <input type="text" name="search" id="txtsearch" onblur="if(this.value=='')this.value='Tìm kiếm...'" onfocus="if(this.value=='Tìm kiếm...')this.value=''" value="T&#236;m kiếm..." />
+                                            <div class="select-categories">
+                                                <select name="lbgroup" id="lbgroup">
+                                                    <option value="0" selected="selected">Tất cả</option>
+                                                    <option class="option-1" value="1130">Account Game</option>
+                                                    <option class="option-1" value="1131">Phụ kiện</option>
+                                                    <option class="option-1" value="1132">Key game</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-search" title="Search" type="button" id="btnsearch" value="Search">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-5 col-xs-12 top-cart">
+                                <div class="cart">
+                                    <div class="heading">
+                                        <a href="gio-hang.html" >
+                                            <span class="icon">icon</span><span id="cart-total">
+                                                0
+                                                sp - 0đ
+                                            </span><i class="fa fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript">
+            $("#btnsearch").click(function () {
+                SearchProduct();
+            });
+            $("#txtsearch").keydown(function (event) {
+                if (event.keyCode == 13) {
+                    SearchProduct();
+                }
+            });
+            $("#btnsearch1").click(function () {
+                SearchProduct1();
+            });
+            $("#txtsearch1").keydown(function (event) {
+                if (event.keyCode == 13) {
+                    SearchProduct1();
+                }
+            });
+            function SearchProduct() {
+                var key = $('#txtsearch').val();
+                if (key == '' || key == 'Tìm kiếm...') {
+                    $('#txtsearch').focus();
+                    return;
+                }
+                var group = $('#lbgroup').val();
+                window.location = 'tim-kiem.html-group=.htm'+ group + '&key=' + key;
+            }
+            function SearchProduct1() {
+                var key = $('#txtsearch1').val();
+                if (key == '' || key == 'Tìm kiếm...') {
+                    $('#txtsearch1').focus();
+                    return;
+                }
+                var group = 0;
+                window.location = 'tim-kiem.html-group=.htm'+ group + '&key=' + key;
+            }
+        </script>
+
+
+        <section class="navigation-menu clearfix">
+            <div class="container">
+                <div class="menu-top">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="menu-cate menu-quick-select">
+                                <div class="menu-cate-title">
+                                    <span><i class="fa fa-th-list"></i><a href="san-pham.html">Danh mục sản phẩm</a></span>
+                                    <i class="fa fa-chevron-circle-down"></i>
+                                </div>
+                                <ul class="menu-cate-content" style="display: none" >
+                                    <li>
+                                        <a href="game.html">
+                                            <i class="icon-menu fa /Uploads/shop90/images/icon/i_catelogy_7-20x20_png_pagespeed_ce_kzOx8kw31-.png"></i>
+                                            Account Game<span class="arrow-menu"><i class="fa fa-chevron-right "></i></span>
+                                        </a>
+                                        <div class="sub-menu hidden-xs">
+                                            <ul class="colum0">
+
+                                                <li>
+                                                    <a href="game.html">Account Game</a>
+                                                    <ul class="subview-menu">
+                                                        <li><a href="lienminh.html">Liên minh huyền thoại</a></li>
+                                                        <li><a href="pubg.html" >PUBG</a></li>
+                                                        <li><a href="lienquan.html" >Liên quân mobile</a></li>
+                                                        <li><a href="freefire.html">Freefire</a></li>
+                                                        <li><a href="fifa.html" >Fifa online 4</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="phu-kien.html" >
+                                            <i class="icon-menu fa /Uploads/shop90/images/icon/i_catelogy_5-20x20_png_pagespeed_ce_ou8xCNG4YJ.png"></i>
+                                            Phụ Kiện<span class="arrow-menu"><i class="fa fa-chevron-right "></i></span>
+                                        </a>
+                                        <div class="sub-menu hidden-xs">
+                                            <ul class="colum0">
+                                                <li>
+                                                    <a href="phu-kien.html" >Phụ kiện</a>
+                                                    <ul class="subview-menu">
+                                                        <li><a href="may-tinh-hp.htm" >Chuột</a></li>
+                                                        <li><a href="may-tinh-dell.htm">Bàn phím</a></li>
+                                                        <li><a href="may-tinh-lenovo.htm" >Tai Nghe</a></li>
+                                                        <li><a href="may-tinh-acer.htm">Tay cầm</a></li>
+                                                        <li><a href="may-tinh-asus.htm">Lót chuột</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="keygame.html" >
+                                            <i class="icon-menu fa /Uploads/shop90/images/icon/i_catelogy_3-20x20_png_pagespeed_ce_j-iqkcibbN.png"></i>
+                                            Key Game<span class="arrow-menu"><i class="fa fa-chevron-right "></i></span>
+                                        </a>
+                                        <div class="sub-menu hidden-xs">
+                                            <ul class="colum0">
+                                                <li>
+                                                    <a href="keygame.html" >Key Game</a>
+                                                    <ul class="subview-menu">
+                                                        <li><a href="action.html">Action</a></li>
+                                                        <li><a href="avenger.html">Avenger</a></li>
+                                                        <li><a href="spot.html">Spot</a></li>
+                                                        <li><a href="RPG.html" >RPG</a></li>
+                                                        <li><a href="racing.html" >Racing</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-9 ">
+                            <nav class="navbar nav-menu">
+                                <div class="navbar-header">
+                                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <nav id="mobile-menu" class="mobile-menu collapse navbar-collapse">
+                                    <ul class='menu nav navbar-nav'><li class="level0"><a class='' href="index.html"><span>Trang chủ</span></a></li>
+                                        <li class="level0"><a class='' href="gioi-thieu.html"><span>Giới thiệu</span></a></li>
+                                        <li class="level0"><a class='' href="san-pham.html" ><span>Sản phẩm</span></a></li>
+                                        <li class="level0"><a class='' href="lien-he.html"><span>Liên hệ</span></a></li>
+                                        <li class="level0"><a class='' href="chinh-sach-bao-mat.html" ><span>Điểu khoản sử dụng</span></a></li>
+                                    </ul>
+                                </nav>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var str = location.href.toLowerCase();
+                $("ul.menu li a").each(function () {
+                    if (str.indexOf(this.href.toLowerCase()) >= 0) {
+                        $("ul.menu li").removeClass("active");
+                        $(this).parent().addClass("active");
+                    }
+                });
+            });
+        </script>
+
+    </div>
+
+
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <script src="orderServices.js" ></script>
+                    <script src="orderController.js" ></script>
+                    <div class="payment-content" ng-controller="orderController" ng-init="initCheckoutController()">
+                        <h1 class="title"><span>Thanh toán</span></h1>
+                        <div class="steps clearfix">
+                            <ul class="clearfix">
+                                <li class="cart active col-md-2 col-xs-12 col-sm-4 col-md-offset-3 col-sm-offset-0 col-xs-offset-0"><span><i class="glyphicon glyphicon-shopping-cart"></i></span><span>Giỏ hàng của tôi</span><span class="step-number"><a>1</a></span></li>
+                                <li class="payment active col-md-2 col-xs-12 col-sm-4"><span><i class="glyphicon glyphicon-usd"></i></span><span>Thanh toán</span><span class="step-number"><a>2</a></span></li>
+                                <li class="finish col-md-2 col-xs-12 col-sm-4"><span><i class="glyphicon glyphicon-ok"></i></span><span>Hoàn tất</span><span class="step-number"><a>3</a></span></li>
+                            </ul>
+                        </div>
+                        <div class="payment-title text-center hidden">
+                            <h3>
+                                GIAO HÀNG TOÀN QUỐC - THANH TOÁN KHI NHẬN HÀNG - 15 NGÀY ĐỔI TRẢ MIỄN PHÍ
+                            </h3>
+                            <div>
+                                Nếu gặp khó khăn trong việc đặt hàng xin hãy gọi<b class="hotline"> 19001009 </b>
+                                để được hỗ trợ tốt nhất.
+                            </div>
+                        </div>
+                        <form class="payment-block clearfix" id="checkout-container" ng-submit="checkout()">
+                            <div class="col-md-4 col-sm-12 col-xs-12 payment-step step2">
+                                <h4>1. Địa chỉ thanh toán và giao hàng</h4>
+                                <div class="step-preview clearfix">
+                                    <h2 class="title">Thông tin thanh toán</h2>
+                                    <div class="info-user" ng-if="CustomerId>0">
+                                        <label>Người nhận:<span>{{CustomerName}}</span></label>
+                                        <label>Điện thoại:<span>{{CustomerPhone}}</span></label>
+                                        <label>Email:<span>{{CustomerEmail}}</span></label>
+                                        <label>Địa chỉ:<span>{{CustomerAddress}}</span></label>
+                                        <label>Quận/Huyện:<span>{{CustomerDistrictName}}</span></label>
+                                        <label>Thành Phố:<span>{{CustomerProvinceName}}</span></label>
+                                        <div class="edit-button">
+                                            <a href="#modalAccount"><i class="fa fa-pencil-square-o"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="form-block" ng-if="CustomerId<=0">
+                                        <div class="user-login"><a href="dang-ky.html">Đăng ký tài khoản mua hàng</a><a href="dang-nhap.html" >Đăng nhập</a></div>
+                                        <label>Mua hàng không cần tài khoản</label>
+                                        <div class="form-group"><input class="form-control" placeholder="Họ & Tên" type="text" ng-model="$parent.CustomerName" required /></div>
+                                        <div class="form-group"><input class="form-control" placeholder="Số điện thoại" type="text" ng-model="$parent.CustomerPhone" required /></div>
+                                        <div class="form-group"><input class="form-control" placeholder="Email" type="email" ng-model="$parent.CustomerEmail" required /></div>
+                                        <div class="form-group"><input class="form-control" placeholder="Địa chỉ" type="text" ng-model="$parent.CustomerAddress" required /></div>
+                                        <div class="form-group">
+                                            <select class="form-control" ng-model="$parent.CustomerProvinceId"
+                                                    ng-options="item.Id as item.Name for item in Provinces" ng-change="changeCustomerProvince()" required></select>
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-control" ng-model="$parent.CustomerDistrictId"
+                                                    ng-options="item.Id as item.Name for item in Districts" ng-change="changeCustomerDistrict()" required></select>
+                                        </div>
+                                        <textarea class="form-control" rows="4" placeholder="Ghi chú đơn hàng" ng-model="$parent.Description"></textarea>
+                                    </div>
+                                    <h2 class="title">Thông tin giao hàng</h2>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" ng-model="IsOtherAddress" ng-change="changeAddress()" /> Giao hàng địa chỉ khác
+                                        </label>
+                                    </div>
+                                    <div class="form-block" ng-show="IsOtherAddress==true">
+                                        <div class="form-group"><input class="form-control" placeholder="Họ & Tên" type="text" ng-model="DeliveryName" /></div>
+                                        <div class="form-group"><input class="form-control" placeholder="Số điện thoại" type="text" ng-model="DeliveryPhone" /></div>
+                                        <div class="form-group"><input class="form-control" placeholder="Email" type="text" ng-model="DeliveryEmail" /></div>
+                                        <div class="form-group"><input class="form-control" placeholder="Địa chỉ" type="text" ng-model="DeliveryAddress" /></div>
+                                        <div class="form-group">
+                                            <select class="form-control" ng-model="DeliveryProvinceId"
+                                                    ng-options="item.Id as item.Name for item in ProvinceDeliverys" ng-change="changeDeliveryProvince()"></select>
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-control" ng-model="DeliveryDistrictId"
+                                                    ng-options="item.Id as item.Name for item in DistrictDeliverys" ng-change="changeDeliveryDistrict()"></select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12 payment-step step3">
+                                <h4>2. Thanh toán và vận chuyển</h4>
+                                <div class="step-preview clearfix">
+                                    <h2 class="title">Vận chuyển</h2>
+                                    <div class="form-group ">
+                                        <select class="form-control" ng-model="ShippingRateId"
+                                                ng-options="item.Id as item.Name for item in ShippingRates" ng-change="changeShippingRate()"></select>
+                                    </div>
+                                    <h2 class="title">Thanh toán</h2>
+                                    <div class="radio" ng-repeat="item in PaymentMethods">
+                                        <label>
+                                            <input type="radio" value="{{item.Id}}" name="optionsRadios" ng-model="PaymentMethodId" ng-click="changePaymentMethod(item.Id)" />
+                                            {{item.Name}}
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12 payment-step step1">
+                                <h4>3. Thông tin đơn hàng</h4>
+                                <div class="step-preview">
+                                    <div class="cart-info">
+                                        <div class="cart-items">
+                                            <div class="cart-item clearfix" ng-repeat="item in OrderDetails">
+                            <span class="image pull-left" style="margin-right:10px;">
+                                <a href="{{item.ProductCode}}.html">
+                                    <img src="notfound.html-aspxerrorpath=-{{item.ProductImage}}" class="img-responsive" />
+                                </a>
+                            </span>
+                                                <div class="product-info pull-left">
+                                <span class="product-name">
+                                    <a href="{{item.ProductCode}}.html">{{item.ProductName}}</a> x <span>{{item.Quantity | number:0}}</span>
+                                </span>
+                                                    <p class="note" ng-if="item.IsVariant==true">{{item.VariantName}}</p>
+                                                </div>
+                                                <span class="price">{{item.Amount | number:0}} ₫</span>
+                                            </div>
+                                        </div>
+                                        <div class="total-price">
+                                            Thành tiền  <label> {{ Amount| number:0 }} ₫</label>
+                                        </div>
+                                        <div class="shiping-price">
+                                            Phí vận chuyển  <label>{{ ShippingAmount| number:0 }} ₫</label>
+                                        </div>
+                                        <div class="btn-coupon hidden">
+                                            <a href="#" class="btn btn-primary"><span></span>Sử dụng mã giảm giá </a>
+                                        </div>
+                                        <div class="use-coupon hidden">
+                                            <div class="form-group">
+                                                <input placeholder="Nhập mã giảm giá" class="coupon-code form-control" />
+                                                <a class="btn btn-primary">Sử dụng</a>
+                                            </div>
+                                        </div>
+                                        <div class="total-payment">
+                                            Thanh toán <span> {{ TotalAmount| number:0 }} ₫</span>
+                                        </div>
+                                        <div class="button-submit">
+                                            <button class="btn btn-default" type="submit">Đặt hàng</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <div class="breadcrumb clearfix">
+                        <ul>
+                            <li itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" class="home">
+                                <a title="Đến trang chủ" href="index.html" itemprop="url"><span itemprop="title">Trang chủ</span></a>
+                            </li>
+                            <li class="icon-li"><strong>Thanh toán</strong> </li>
+                        </ul>
+                    </div>
+                    <script type="text/javascript">
+                        $(".link-site-more").hover(function () { $(this).find(".s-c-n").show(); }, function () { $(this).find(".s-c-n").hide(); });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-9 ">
+
+                <script src="moduleServices.js" ></script>
+                <script src="moduleController.js" ></script>
+                <!--Begin-->
+                <link href="flexslider.css"  rel="stylesheet" type="text/css" />
+                <script src="jquery.flexslider-min.js" type="text/javascript"></script>
+                <div class="flexslider slideshow-content" id="bannerheaderhome" ng-controller="moduleController" ng-init="initSlideshowController('Slideshows')">
+                    <ul class="slides">
+                        <li ng-repeat="item in Slideshows">
+                            <a title="{{item.Name}}" href="notfound.html-aspxerrorpath=-{{item.Link}}.htm" >
+                                <img alt="{{item.Name}}" ng-src="notfound.html-aspxerrorpath=-{{item.Image}}"  data-original="{{item.Image}}" class="lazy" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#bannerheaderhome').flexslider({
+                            directionNav: true,
+                            controlNav: false,
+                            animation: "slide",
+                            itemHeigh: 270,
+                            itemMargin: 0,
+                            animationSpeed: 700,
+                            slideshowSpeed: 3000
+                        });
+                    });
+                </script>
+                <!--End-->
+                <script type="text/javascript">
+                    window.Slideshows = [{"Id":448,"ShopId":90,"Name":"#","Image":"761x309.png","Link":"null","Index":1,"Inactive":false,"Timestamp":"AAAAAAAPo1o="},{"Id":449,"ShopId":90,"Name":"#2","Image":"785x350 _ O1.jpg"/*tpa=http://runecom03.runtime.vn/Uploads/shop90/images/product/785x350%20_%20O1.jpg*/,"Link":null,"Index":2,"Inactive":false,"Timestamp":"AAAAAAAPo1k="},{"Id":450,"ShopId":90,"Name":"65","Image":"785x350fujifilm.jpg"/*tpa=http://runecom03.runtime.vn/Uploads/shop90/images/product/785x350fujifilm.jpg*/,"Link":null,"Index":3,"Inactive":false,"Timestamp":"AAAAAAAPo1s="},{"Id":451,"ShopId":90,"Name":"654","Image":"785x350dungthumayanh.jpg"/*tpa=http://runecom03.runtime.vn/Uploads/shop90/images/product/785x350dungthumayanh.jpg*/,"Link":null,"Index":4,"Inactive":false,"Timestamp":"AAAAAAAPo1g="}];
+                </script>                    </div>
+        </div>
+    </div>
+
+
+    <div class="adv">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <link href="owl.carousel.css"  rel="stylesheet" />
+                    <link href="owl.theme.css" rel="stylesheet" />
+                    <script src="owl.carousel.min.js"></script>
+                    <script src="moduleServices.js"></script>
+                    <script src="moduleController.js"></script>
+                    <!--Begin-->
+                    <div class="adv-content row" ng-controller="moduleController" ng-init="initAdvSlideController('AdvSlides')">
+                        <div class="owl-carousel">
+                            <ul id="adv-content">
+                                <li ng-repeat="item in AdvSlides">
+                                    <a href="notfound.html-aspxerrorpath=-{{item.Link}}.htm"><img ng-src="notfound.html-aspxerrorpath=-{{item.Image}}" tppabs="http://runecom03.runtime.vn/{{item.Image}}" data-original="{{item.Image}}" alt="{{it.Name}}" class="img-responsive lazy" /></a>
+                                </li>
+                            </ul>
+                            <div class="controls boxprevnext">
+                                <a class="prev prevlogo"><i class="fa fa-angle-left"></i></a>
+                                <a class="next nextlogo"><i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            var owladv = $(".adv-content ul");
+                            owladv.owlCarousel({
+                                autoPlay: true,
+                                autoPlay: 5000,
+                                items: 3,
+                                slideSpeed: 1000,
+                                pagination: false,
+                                itemsDesktop: [1200, 3],
+                                itemsDesktopSmall: [980, 3],
+                                itemsTablet: [767, 1],
+                                itemsMobile: [480, 1]
+                            });
+                            $(".adv-content .nextlogo").click(function () {
+                                owladv.trigger('notfound.html-aspxerrorpath=-owl.next.htm');
+                            })
+                            $(".adv-content .prevlogo").click(function () {
+                                owladv.trigger('notfound.html-aspxerrorpath=-owl.prev.htm');
+                            })
+                        });
+                    </script>
+                    <!--End-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <link href="owl.carousel.css" rel="stylesheet" />
+                    <link href="owl.theme.css" rel="stylesheet" />
+                    <script src="owl.carousel.min.js"></script>
+                    <script src="moduleServices.js" ></script>
+                    <script src="moduleController.js"></script>
+                    <!--Begin-->
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            var owl = $(".partner-block");
+                            owl.owlCarousel({
+                                autoPlay: true,
+                                autoPlay: 5000,
+                                items: 6,
+                                slideSpeed: 1000,
+                                pagination: false,
+                                itemsDesktop: [1200, 6],
+                                itemsDesktopSmall: [980, 5],
+                                itemsTablet: [767, 4],
+                                itemsMobile: [480, 2]
+                            });
+                            $(".partner-content .nextlogo").click(function () {
+                                owl.trigger('notfound.html-aspxerrorpath=-owl.next.htm');
+                            });
+                            $(".partner-content .prevlogo").click(function () {
+                                owl.trigger('notfound.html-aspxerrorpath=-owl.prev.htm');
+                            });
+                        });
+                    </script>
+                    <!--End-->
+                    <script type="text/javascript">
+                        window.Partners = [{"Id":1,"ShopId":90,"Name":"Adv01","Link":"#","Logo":"guhi.jpg","Index":1,"Inactive":false},{"Id":7,"ShopId":90,"Name":"Adv02","Link":"#","Logo":"canon.jpg","Index":2,"Inactive":false},{"Id":8,"ShopId":90,"Name":"ads","Link":"#","Logo":"nikon.jpg","Index":3,"Inactive":false},{"Id":9,"ShopId":90,"Name":"4ss","Link":"#","Logo":"burbery_2jrem8aiipohl_simg_603cef_226x114_maxb.png","Index":4,"Inactive":false},{"Id":10,"ShopId":90,"Name":"dfa","Link":"#","Logo":"nikon(1).jpg","Index":5,"Inactive":false}];
+                    </script>                        </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+
+        <div class="footer-content clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-box col-md-3 col-sm-12 col-xs-12">
+                        <div class="item">
+                            <h3>
+                                <span>Về ch&#250;ng t&#244;i</span>
+                            </h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="gioi-thieu.html" >
+                                    Giới thiệu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="giao-hang-doi-tra.html" >
+                                    Giao h&#224;ng - Đổi trả
+                                </a>
+                            </li>
+                            <li>
+                                <a href="inh-sach-bao-mat.html" >
+                                    Ch&#237;nh s&#225;ch bảo mật
+                                </a>
+                            </li>
+                            <li>
+                                <a href="lien-he.html" >
+                                    Li&#234;n hệ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box col-md-3 col-sm-12 col-xs-12">
+                        <div class="item">
+                            <h3>
+                                <span>Trợ gi&#250;p</span>
+                            </h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="huong-dan-mua-hang.html" >
+                                    Hướng dẫn mua h&#224;ng
+                                </a>
+                            </li>
+                            <li>
+                                <a href="huong-dan-thanh-toan.html" >
+                                    Hướng dẫn thanh to&#225;n
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tai-khoan-giao-dich.html" >
+                                    T&#224;i khoản giao dịch
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box box-address col-md-3 col-sm-12 col-xs-12">
+                        <div class="item">
+                            <h3>
+                                <span>Thông tin công ty</span>
+                            </h3>
+                            <div class="box-address-content">
+                                <b>CÔNG TY PHÂN PHỐI GAME VÀ PHỤ KIỆN LH GAMING</b>
+                                <p><i class="fa fa-map-marker"></i>TRƯỜNG ĐẠI HỌC NÔNG LÂM TPHCM</p>
+                                <p>
+                                    <i class="fa fa-envelope"></i>
+                                    <a href="mailto:lhgaming@gmail.com">lhgaming@gmail.com</a>
+                                </p>
+                                <p>
+                                    <i class="fa fa-phone"></i>
+                                    Phone: 1900 1009
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-box box-social col-md-3 col-sm-12 col-xs-12">
+                        <div class="item">
+                            <h3>
+                                <span>Facebook</span>
+                            </h3>
+                            <div class="fb-like-box" data-href="javascript:if(confirm(%27https://www.facebook.com/runtime.vn  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://www.facebook.com/runtime.vn%27" tppabs="https://www.facebook.com/runtime.vn" data-width="289"
+                                 data-height="190" data-colorscheme="dark" data-show-faces="true" data-header="false"
+                                 data-stream="false" data-show-border="false">
+                            </div>
+                            <div class="social-icon">
+                                <ul>
+                                    <li><a target="_blank"><i class="fab fa-google"></i></a></li>
+                                    <li><a target="_blank"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a target="_blank"><i class="fab fa-twitter "></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footer-box box-letter col-md-3 col-sm-12 col-xs-12 hide">
+                        <div class="item">
+                            <h3>
+                                Đăng ký nhận tin
+                            </h3>
+                            <div class="letter-title">
+                                <span>Hộp thư</span><i class="icon-title"></i>
+                            </div>
+                            <div class="letter-content">
+                                <div class="new-paper">
+                                    <div class="input-box">
+                                        <input type="text" name="email" id="txtNewsletter" class="input-text form-control" value="" placeholder="Your Emain Address" />
+                                    </div>
+                                    <div class="button text-center">
+                                        <a class="btn btn-primary">Nhận tin</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div style="display: none;" id="loading-mask">
+        <div id="loading_mask_loader" class="loader">
+            <img alt="Loading..." src="ajax-loader-main.gif"  />
+            <div>
+                Please wait...
+            </div>
+        </div>
+    </div>
+    <a class="back-to-top" href="#" style="display: inline;">
+        <i class="fa fa-angle-up">
+        </i>
+    </a>
+
+
+</body>
+</html>
+<script type="text/javascript">
+    $(".header-content").css({ "background": '' });
+    $("html").addClass('');
+    $(document).ready(function () {
+        $("img.lazy-img").each(function () {
+
+        });
+        $("img.lazy-img").lazyload({
+            effect: "fadeIn",
+            threshold: 200
+        });
+    });
+</script>
+

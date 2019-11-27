@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1957e795-3d3e-4fce-9881-44dcda75ab79" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Swzlq3XXT6oNTiIQExedG8Xw8K" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Web\Web" />
+      <recent name="C:\Users\Administrator\Desktop\Web\Web\img" />
+      <recent name="C:\Users\dyrus\Web\img" />
+      <recent name="C:\Users\dyrus\Web\Uploads\shop90\images\product" />
+      <recent name="C:\Users\dyrus\Web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1957e795-3d3e-4fce-9881-44dcda75ab79" name="Default Changelist" comment="" />
+      <created>1572489949522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572489949522</updated>
+      <workItem from="1572489950694" duration="4341000" />
+      <workItem from="1573094551024" duration="3628000" />
+      <workItem from="1573141288607" duration="6000" />
+      <workItem from="1573308052920" duration="7997000" />
+      <workItem from="1573401843568" duration="4468000" />
+      <workItem from="1573480924152" duration="6815000" />
+      <workItem from="1573544485914" duration="33000" />
+      <workItem from="1573545924357" duration="464000" />
+      <workItem from="1573546554226" duration="1290000" />
+      <workItem from="1573661031517" duration="3983000" />
+      <workItem from="1573665150957" duration="282000" />
+      <workItem from="1573718501259" duration="4823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
