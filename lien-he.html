@@ -36,7 +36,8 @@
     <script src="script/paging.js"></script>
     <script src="script/ajaxServices.js"></script>
     <script src="script/alertsServices.js"></script>
-    <script src="icon/js/all.js"></script>
+
+    <link rel="stylesheet" href="icon/css/all.css">
 
 
 </head>
@@ -173,7 +174,7 @@
                                 <div class="cart">
                                     <div class="heading">
                                         <a href="gio-hang.html" >
-                                            <span class="icon">icon</span><span id="cart-total">
+                                            <img src="img/i_mycart.png"><span id="cart-total">
                                                 0
                                                 sp - 0đ
                                             </span><i class="fa fa-arrow-right"></i>
@@ -367,8 +368,8 @@
                         <div class="contact-block clearfix">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <a href="index.htm" >
-                                        <img class="img-responsive" src="notfound.html-aspxerrorpath=-{{shop.Logo}}"  />
+                                    <a href="index.html" >
+                                        <img src="banner(1).png" height="70" width="200">
                                     </a>
                                 </div>
                                 <div class="col-md-9">
@@ -393,6 +394,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                             <hr class="" />
                             <h3 class="title">Gửi thông tin liên hệ</h3>
@@ -512,35 +514,14 @@
                     <script src="moduleController.js" ></script>
                     <!--Begin-->
                     <div class="box-support-online" ng-controller="moduleController" ng-init="initSupportOnlineController('Shop','SupportOnlines')">
-                        <h3><span>Hỗ trợ trực tuyến</span></h3>
+                        <center><h3 >Website Nhóm</h3></center>
                         <div class="support-online-block">
                             <div class="support-hotline">
-                                HOTLINE<br><span>{{shop.Hotline}}</span>
+                                <i class="fas fa-arrow-alt-circle-right"></i>
+                                <a href="https://hci2019group15.tk/">HCI2019GROUP15</a>
+                                <i class="fas fa-arrow-alt-circle-left"></i>
                             </div>
-                            <div class="support-item" ng-repeat="item in SupportOnlines">
-                                <div class="name">
-                                    {{item.FullName}}  <b>{{item.Phone}}</b>
-                                </div>
-                                <ul>
-                                    <li ng-if="item.Skype!=''&&item.Skype!=null">
-                                        <a ng-href="skype:{{item.Skype}}?chat" title="{{item.FullName}}">
-                                            <img width="70" src="chatbutton_32px.png" >
-                                        </a>
-                                    </li>
-                                    <li ng-if="item.Viber!=''&&item.Viber!=null" class="social">
-                                        <a href="tel:{{item.Viber}}" title="{{item.FullName}}" target="_blank"> <img src="icon-viber.png" alt="Viber"></a>
-                                        <span class="phone"><a href="tel:{{item.Viber}}" title="{{item.FullName}}" target="_blank">{{item.Viber}} </a></span>
-                                    </li>
-                                    <li ng-if="item.Zalo!=''&&item.Zalo!=null" class="social">
-                                        <a href="tel:{{item.Zalo}}" title="{{item.FullName}}" target="_blank"> <img src="icon-zalo.png"alt="Zalo"></a>
-                                        <span class="phone"><a href="tel:{{item.Zalo}}" title="{{item.FullName}}" target="_blank">{{item.Zalo}} </a></span>
-                                    </li>
-                                    <li ng-if="item.Facebook!=''&&item.Facebook!=null" class="social">
-                                        <a href="notfound.html-aspxerrorpath=-{{item.Facebook}}.htm" title="{{item.FullName}}" target="_blank"> <img src="icon-facebook.png" tppabs="http://runecom03.runtime.vn/Images/icon-facebook.png" alt="Facebook"></a>
-                                        <span class="phone"><a href="notfound.html-aspxerrorpath=-{{item.Facebook}}.htm" title="{{item.FullName}}" target="_blank">{{item.FullName}} </a></span>
-                                    </li>
-                                </ul>
-                            </div>
+
                         </div>
                     </div>
                     <!--End-->

@@ -36,7 +36,8 @@
     <script src="script/paging.js"></script>
     <script src="script/ajaxServices.js"></script>
     <script src="script/alertsServices.js"></script>
-    <script src="icon/js/all.js"></script>
+    <link rel="stylesheet" href="icon/css/all.css">
+
 
 
 </head>
@@ -173,7 +174,7 @@
                                 <div class="cart">
                                     <div class="heading">
                                         <a href="gio-hang.html" >
-                                            <span class="icon">icon</span><span id="cart-total">
+                                            <img src="img/i_mycart.png"><span id="cart-total">
                                                 0
                                                 sp - 0đ
                                             </span><i class="fa fa-arrow-right"></i>
@@ -338,6 +339,100 @@
 
 
     <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+
+                    <script src="moduleServices.js" ></script>
+                    <script src="moduleController.js"></script>
+                    <!--Begin-->
+                    <div class="box-support-online" ng-controller="moduleController" ng-init="initSupportOnlineController('Shop','SupportOnlines')">
+                        <h3><span>Hỗ trợ trực tuyến</span></h3>
+                        <div class="support-online-block">
+                            <div class="support-hotline">
+                                HOTLINE<br><span>1900 1009</span>
+                            </div>
+                            <div class="support-item" ng-repeat="item in SupportOnlines">
+                                <div class="name">
+                                    {{item.FullName}}  <b>{{item.Phone}}</b>
+                                </div>
+                                <ul>
+                                    <li ng-if="item.Skype!=''&&item.Skype!=null">
+                                        <a ng-href="skype:{{item.Skype}}?chat" title="{{item.FullName}}">
+                                            <img width="70" src="chatbutton_32px.png" tppabs="http://www.skypeassets.com/i/scom/images/skype-buttons/chatbutton_32px.png">
+                                        </a>
+                                    </li>
+                                    <li ng-if="item.Viber!=''&&item.Viber!=null" class="social">
+                                        <a href="tel:{{item.Viber}}" title="{{item.FullName}}" target="_blank"> <img src="icon-viber.png" tppabs="http://lhgaming.runtime.vn/Images/icon-viber.png" alt="Viber"></a>
+                                        <span class="phone"><a href="tel:{{item.Viber}}" title="{{item.FullName}}" target="_blank">{{item.Viber}} </a></span>
+                                    </li>
+                                    <li ng-if="item.Zalo!=''&&item.Zalo!=null" class="social">
+                                        <a href="tel:{{item.Zalo}}" title="{{item.FullName}}" target="_blank"> <img src="icon-zalo.png" tppabs="http://lhgaming.runtime.vn/Images/icon-zalo.png" alt="Zalo"></a>
+                                        <span class="phone"><a href="tel:{{item.Zalo}}" title="{{item.FullName}}" target="_blank">{{item.Zalo}} </a></span>
+                                    </li>
+                                    <li ng-if="item.Facebook!=''&&item.Facebook!=null" class="social">
+                                        <a href="javascript:if(confirm(%27http://lhgaming.runtime.vn/content/{{item.Facebook}}  \n\nThis file was not retrieved by Teleport Pro, because it is linked too far away from its Starting Address. If you increase the in-domain depth setting for the Starting Address, this file will be queued for retrieval.  \n\nDo you want to open it from the server?%27))window.location=%27http://lhgaming.runtime.vn/content/{{item.Facebook}}%27" tppabs="http://lhgaming.runtime.vn/content/{{item.Facebook}}" title="{{item.FullName}}" target="_blank"> <img src="icon-facebook.png" tppabs="http://lhgaming.runtime.vn/Images/icon-facebook.png" alt="Facebook"></a>
+                                        <span class="phone"><a href="javascript:if(confirm(%27http://lhgaming.runtime.vn/content/{{item.Facebook}}  \n\nThis file was not retrieved by Teleport Pro, because it is linked too far away from its Starting Address. If you increase the in-domain depth setting for the Starting Address, this file will be queued for retrieval.  \n\nDo you want to open it from the server?%27))window.location=%27http://lhgaming.runtime.vn/content/{{item.Facebook}}%27" tppabs="http://lhgaming.runtime.vn/content/{{item.Facebook}}" title="{{item.FullName}}" target="_blank">{{item.FullName}} </a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End-->
+                    <script type="text/javascript">
+                        window.Shop = {"Name":"lhgaming","Email":"http://lhgaming.runtime.vn/content/dyrus5197@gmail.com","Phone":"19001009","Logo":"banner(1).png"/*tpa=http://lhgaming.runtime.vn/Uploads/shop90/images/banner(1).png*/,"Fax":"(08) 66 85 85 38","Website":"http://www.runtime.vn/","Hotline":"19001009","Address":"KTX Khu B","Fanpage":"https://www.facebook.com/runtime.vn","Google":null,"Facebook":"https://www.facebook.com/runtime.vn","Youtube":null,"Twitter":null,"IsBanner":false,"IsFixed":false,"BannerImage":null};
+                        window.SupportOnlines = [{"Id":27047,"ShopId":37732,"FullName":"Mr.Trường","Position":"Giám đốc","Yahoo":"truongka04","Skype":"http://lhgaming.runtime.vn/content/truong.vt","Viber":null,"Zalo":null,"Facebook":null,"Phone":"0908770095","Phone1":null,"Email":null,"Address":null,"Avatar":null,"Company":null,"Index":1,"Inactive":false}];
+                    </script>                    </div>
+                <div class="col-md-9">
+
+                    <div class="breadcrumb clearfix">
+                        <ul>
+                            <li itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" class="home">
+                                <a title="Đến trang chủ" href="index.htmm"  itemprop="url"><span itemprop="title">Trang chủ</span></a>
+                            </li>
+                            <li class="icon-li"><strong>Hướng dẫn mua h&#224;ng</strong> </li>
+                        </ul>
+                    </div>
+                    <script type="text/javascript">
+                        $(".link-site-more").hover(function () { $(this).find(".s-c-n").show(); }, function () { $(this).find(".s-c-n").hide(); });
+                    </script>
+                    <div class="page-option">
+                        <h1 class="title">
+                            <span>Hướng dẫn mua h&#224;ng</span>
+                        </h1>
+                        <div class="page-option-block">
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                                <strong style="border: 0px; margin: 0px; padding: 0px;">Bước 1:</strong></p>
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                                Chọn sản phẩm, màu sắc, số lượng muốn mua.... Sau đó click vào nút <strong style="border: 0px; margin: 0px; padding: 0px;">"MUA NGAY"</strong></p>
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                          </p>
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                                <strong style="border: 0px; margin: 0px; padding: 0px;">Bước 2:</strong></p>
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                                Hệ thống dẫn bạn vào trang giỏ hàng, vui lòng kiểm tra tên sản phẩm, số lượng, màu sắc, giá tiền, tổng tiền....Tại đây bạn có thể thay đổi màu sắc, số lượng, xóa sản phẩm không muốn mua hoặc có thể trở về trang chủ để tiếp tục mua hàng. Nếu muốn thanh toán đơn hàng, vui lòng click vào nút <strong style="border: 0px; margin: 0px; padding: 0px;">"Đặt hàng"</strong></p>
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                           </p>
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                                <strong style="border: 0px; margin: 0px; padding: 0px;">Bước 3:</strong></p>
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                                Hệ thống dẫn bạn vào trang thông tin mua hàng. Nếu bạn đã có tài khoản tại mydeal.vn, vui lòng chọn <strong style="border: 0px; margin: 0px; padding: 0px;">"Đăng nhập"</strong>. Nếu bạn muốn đăng ký tài khoảng, vui lòng chọn <strong style="border: 0px; margin: 0px; padding: 0px;">"Đăng ký"</strong>. Nếu muốn đặt hàng nhanh mà không cần đăng ký, vui lòng nhập đầy đủ thông tin vào bảng mẫu bên dưới:</p>
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                                </p>
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                                Để kết thúc đặt hàng, vui lòng chọn <strong style="border: 0px; margin: 0px; padding: 0px;">"Hoàn tất đặt hàng"</strong></p>
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                                <strong style="border: 0px; margin: 0px; padding: 0px;">Bước 4:</strong></p>
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                                Hệ thống thông báo bạn đặt hàng thành công. Chúc mừng bạn !</p>
+                            <p style="border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: Arial, Tahoma, Verdana; line-height: 20px;">
+                             </p>
+
+                        </div>
+                    </div>                    </div>
+            </div>
+        </div>
+    </div>
 
 
         <div class="container">

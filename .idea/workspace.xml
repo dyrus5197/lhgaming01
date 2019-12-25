@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1957e795-3d3e-4fce-9881-44dcda75ab79" name="Default Changelist" comment="" />
+    <list default="true" id="1957e795-3d3e-4fce-9881-44dcda75ab79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/i_mycart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinh-sach-bao-mat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinh-sach-bao-mat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dang-ky.html" beforeDir="false" afterPath="$PROJECT_DIR$/dang-ky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dang-nhap.html" beforeDir="false" afterPath="$PROJECT_DIR$/dang-nhap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giao-hang-doi-tra.html" beforeDir="false" afterPath="$PROJECT_DIR$/giao-hang-doi-tra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gio-hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/gio-hang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gioi-thieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/gioi-thieu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huong-dan-mua-hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/huong-dan-mua-hang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huong-dan-thanh-toan.html" beforeDir="false" afterPath="$PROJECT_DIR$/huong-dan-thanh-toan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kiem-tra-don-hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/kiem-tra-don-hang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lien-he.html" beforeDir="false" afterPath="$PROJECT_DIR$/lien-he.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linh-vuc-hoat-dong.html" beforeDir="false" afterPath="$PROJECT_DIR$/linh-vuc-hoat-dong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quen-mat-khau.html" beforeDir="false" afterPath="$PROJECT_DIR$/quen-mat-khau.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/san-pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/san-pham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tai-khoan-giao-dich.html" beforeDir="false" afterPath="$PROJECT_DIR$/tai-khoan-giao-dich.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thanh-toan.html" beforeDir="false" afterPath="$PROJECT_DIR$/thanh-toan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ve-chung-toi.html" beforeDir="false" afterPath="$PROJECT_DIR$/ve-chung-toi.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,20 +37,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Swzlq3XXT6oNTiIQExedG8Xw8K" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dyrus\OneDrive\Desktop\lhgaming01\img" />
+      <recent name="C:\Users\dyrus\OneDrive\Desktop\lhgaming01\css" />
       <recent name="C:\Users\Administrator\Desktop\Web\Web" />
       <recent name="C:\Users\Administrator\Desktop\Web\Web\img" />
       <recent name="C:\Users\dyrus\Web\img" />
-      <recent name="C:\Users\dyrus\Web\Uploads\shop90\images\product" />
-      <recent name="C:\Users\dyrus\Web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,10 +91,22 @@
       <workItem from="1573661031517" duration="3983000" />
       <workItem from="1573665150957" duration="282000" />
       <workItem from="1573718501259" duration="4823000" />
+      <workItem from="1577243104179" duration="4588000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
