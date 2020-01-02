@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1957e795-3d3e-4fce-9881-44dcda75ab79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/account1.html" beforeDir="false" afterPath="$PROJECT_DIR$/account1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gio-hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/gio-hang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thanh-toan.html" beforeDir="false" afterPath="$PROJECT_DIR$/thanh-toan.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +19,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -26,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -76,6 +81,7 @@
       <workItem from="1577892700660" duration="1773000" />
       <workItem from="1577927742411" duration="1210000" />
       <workItem from="1577929148429" duration="175000" />
+      <workItem from="1577929381208" duration="2896000" />
     </task>
     <servers />
   </component>

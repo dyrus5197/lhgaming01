@@ -439,26 +439,26 @@
                                 <div class="step-preview">
                                     <div class="cart-info">
                                         <div class="cart-items">
-                                            <div class="cart-item clearfix" ng-repeat="item in OrderDetails">
+                                            <div class="cart-item clearfix">
                             <span class="image pull-left" style="margin-right:10px;">
-                                <a href="{{item.ProductCode}}.html">
-                                    <img src="notfound.html-aspxerrorpath=-{{item.ProductImage}}" class="img-responsive" />
+                                <a href="account1.html">
+                                    <img src="img/lmht.jpg" class="img-responsive" />
                                 </a>
                             </span>
                                                 <div class="product-info pull-left">
                                 <span class="product-name">
-                                    <a href="{{item.ProductCode}}.html">{{item.ProductName}}</a> x <span>{{item.Quantity | number:0}}</span>
+                                    <a href="account1.html">Account1</a> x <span>50.000đ</span>
                                 </span>
                                                     <p class="note" ng-if="item.IsVariant==true">{{item.VariantName}}</p>
                                                 </div>
-                                                <span class="price">{{item.Amount | number:0}} ₫</span>
+                                                <span class="price">50.000 ₫</span>
                                             </div>
                                         </div>
                                         <div class="total-price">
-                                            Thành tiền  <label> {{ Amount| number:0 }} ₫</label>
+                                            Thành tiền  <label> 50.000₫</label>
                                         </div>
                                         <div class="shiping-price">
-                                            Phí vận chuyển  <label>{{ ShippingAmount| number:0 }} ₫</label>
+                                            Phí vận chuyển  <label>0₫</label>
                                         </div>
                                         <div class="btn-coupon hidden">
                                             <a href="#" class="btn btn-primary"><span></span>Sử dụng mã giảm giá </a>
@@ -470,17 +470,16 @@
                                             </div>
                                         </div>
                                         <div class="total-payment">
-                                            Thanh toán <span> {{ TotalAmount| number:0 }} ₫</span>
+                                            Thanh toán <span> 50.000₫</span>
                                         </div>
                                         <div class="button-submit">
-                                            <button class="btn btn-default" type="submit">Đặt hàng</button>
+                                            <button class="btn btn-default"  onclick=alert("Mua-Hàng-Thành-Công")>Đặt hàng</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </form>
                     </div>
-
 
                     <div class="breadcrumb clearfix">
                         <ul>
